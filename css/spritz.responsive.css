@@ -1,0 +1,188 @@
+/* ****************************************************** */
+/* Responsive Styles ************************************ */
+/* ****************************************************** */
+
+/* ********************************************** */
+/* Inline Spritzer ****************************** */
+/* ********************************************** * /
+@media screen and (min-width: 0) and (max-width: 755px) {
+div.spritzer_popup.spritzinlinereader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+	margin: 0 !important;
+	width: 100% !important;
+	
+	-webkit-border-radius: 	0;
+	-moz-border-radius: 	0;
+	border-radius: 			0;
+	}
+
+	div.spritzer_popup.spritzinlinereader div.spritzer_frame {
+		margin: 0 auto;
+		width: 100%;
+		
+		-webkit-border-radius: 	0;
+		-moz-border-radius: 	0;
+		border-radius: 			0;
+		}
+		
+		/ * Title and Logos * /
+		div.spritzer_popup.spritzinlinereader div.spritzer_title {					/ * Logo Assigned to this Selector * /
+			float: none;
+			width: 100%;
+			height: 70px;
+			
+			-webkit-border-radius: 	0;
+			-moz-border-radius: 	0;
+			border-radius: 			0;
+			}
+			div.spritzer_popup.spritzinlinereader a.close_icon {}
+		
+		/ * Reader * /
+		div.spritzer_popup.spritzinlinereader div.spritzer {						/ * Custom Class Assigned to this Selector * /
+			margin: 0 auto;
+			width: 100%;
+			float: none;
+			
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: 	border-box;
+			box-sizing: 		border-box;
+			}
+			
+			/ * Reader Container * /
+			div.spritzer_popup.spritzinlinereader div.spritzer-container {
+				margin: 0 auto;
+				max-width: 370px;
+				}
+}
+
+
+
+/ * ********************************************** * /
+/ * Sidetab with Popup + Inline Button with Popup  * /
+/ * ********************************************** * /
+@media screen and (min-width: 0) and (max-width: 600px) {
+div.spritzer_popup.spritztabwpopup,
+div.spritzer_popup.spritzinlinewpopup {
+	top: 0;
+	left: 0;
+	margin: 0 !important;
+	width: 100% !important;
+	
+	-webkit-border-radius: 	0;
+	-moz-border-radius: 	0;
+	border-radius: 			0;
+	}
+
+	div.spritzer_popup.spritztabwpopup div.spritzer_frame,
+	div.spritzer_popup.spritzinlinewpopup div.spritzer_frame {
+		margin: 0 auto;
+		width: 100%;
+		
+		-webkit-border-radius: 	0;
+		-moz-border-radius: 	0;
+		border-radius: 			0;
+		}
+		
+		/ * Title and Logos * /
+		div.spritzer_popup.spritztabwpopup div.spritzer_title,					/ * Logo Assigned to this Selector * /
+		div.spritzer_popup.spritzinlinewpopup div.spritzer_title {
+			width: 100%;
+			
+			-webkit-border-radius: 	0;
+			-moz-border-radius: 	0;
+			border-radius: 			0;
+			}
+			div.spritzer_popup.spritztabwpopup a.close_icon,
+			div.spritzer_popup.spritzinlinewpopup a.close_icon {}
+		
+		/ * Reader * /
+		div.spritzer_popup.spritztabwpopup div.spritzer,							/ * Custom Class Assigned to this Selector * /
+		div.spritzer_popup.spritzinlinewpopup div.spritzer {
+			margin: 0 auto;
+			width: 100%;
+			
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: 	border-box;
+			box-sizing: 		border-box;
+			}
+			
+			/ * Reader Container * /
+			div.spritzer_popup.spritztabwpopup div.spritzer-container,
+			div.spritzer_popup.spritzinlinewpopup div.spritzer-container {
+				margin: 0 auto;
+				max-width: 370px;
+				}
+}
+*/
+
+/*
+div.spritzer_popup.responsive {
+	display: none !important;
+	}
+a.close_icon.spritzinlinereader_close { display: none !important; }
+*/
+
+/* ********************************************** */
+/* Inline Spritzer ****************************** */
+/* ********************************************** * /
+@media screen and (min-width: 0) and (max-width: 755px) {
+body {
+	padding-top: 255px !important;
+	}
+div.spritzer_popup.responsive:first-child {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+	margin: 0 !important;
+	width: 100% !important;
+	display: block !important;
+	
+	-webkit-border-radius: 	0;
+	-moz-border-radius: 	0;
+	border-radius: 			0;
+	}
+
+	div.spritzer_popup.responsive div.spritzer_frame {
+		margin: 0 auto;
+		width: 100%;
+		
+		-webkit-border-radius: 	0;
+		-moz-border-radius: 	0;
+		border-radius: 			0;
+		}
+		
+		/ * Title and Logos * /
+		div.spritzer_popup.responsive div.spritzer_title {							/ * Logo Assigned to this Selector * /
+			float: none;
+			width: 100%;
+			height: 70px;
+			
+			-webkit-border-radius: 	0;
+			-moz-border-radius: 	0;
+			border-radius: 			0;
+			}
+			div.spritzer_popup.spritzinlinereader a.close_icon {}
+		
+		/ * Reader * /
+		div.spritzer_popup.responsive div.spritzer {								/ * Custom Class Assigned to this Selector * /
+			margin: 0 auto;
+			width: 100%;
+			float: none;
+			
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: 	border-box;
+			box-sizing: 		border-box;
+			}
+			
+			/ * Reader Container * /
+			div.spritzer_popup.responsive div.spritzer-container {
+				margin: 0 auto;
+				max-width: 370px;
+				}
+}
+*/
+

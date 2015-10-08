@@ -1,0 +1,438 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPresswithSpritz 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-15 15:48+0545\n"
+"PO-Revision-Date: 2014-08-15 16:21+0545\n"
+"Last-Translator: ramzes <ram.zesimus@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class.wordpress.with.spritz.widget.php:6
+msgid "A widget that displays the Spritzer interface"
+msgstr ""
+
+#: ../class.wordpress.with.spritz.widget.php:9
+msgid "Spritz"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:21
+msgid "General Configuration"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:27
+msgid "Display Style"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:30
+msgid "Tab Button with Popup"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:31
+msgid "Inline Button with Popup"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:35
+msgid "Select the display style to use on your website."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:46
+msgid "Choose Tab Button Position"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:49
+msgid "Left"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:50
+msgid "Right"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:51
+msgid "Top"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:55
+msgid "Select position of the tab button on the screen."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:66
+msgid "Align Read with Spritz Button"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:69
+msgid "Align Button to Center"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:70
+msgid "Align Button to Left"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:71
+msgid "Align Button to Right"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:75
+msgid ""
+"Select from the options in the dropdown to position the 'Read with Spritz' "
+"button on the page."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:90
+msgid "Show Speed Options?"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:95
+msgid "Please make checked if you want to show controls on Spritzer."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:106
+msgid "Spritz Speed Items List"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:110
+msgid "50WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:111
+msgid "100WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:112
+msgid "150WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:113
+msgid "250WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:114
+msgid "300WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:115
+msgid "350WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:116
+msgid "400WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:117
+msgid "450WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:118
+msgid "500WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:119
+msgid "550WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:120
+msgid "600WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:121
+msgid "650WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:122
+msgid "700WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:123
+msgid "750WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:124
+msgid "800WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:125
+msgid "850WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:126
+msgid "900WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:127
+msgid "950WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:128
+msgid "1000WPM"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:131
+msgid ""
+"Select the speed options your site visitors will have access to (hold down "
+"the CTRL or COMMAND key for multiple selections)."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:142
+msgid "Default Speed"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:146
+msgid "Select the default speed for the reader."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:157
+msgid "Activate Spritz Reader on the Following Content Types"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:183
+msgid ""
+"The Spritz Reader will only be displayed on the content types selected. (hold down "
+"the CTRL or COMMAND key for multiple selections)"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:197
+msgid "Activate Spritz on Certain Pages/Posts/Custom Posts Only"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:211
+msgid "Choose the content to display the Spritz Reader on"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:215
+msgid ""
+"The Spritz Reader will only be displayed on the specific pages/posts selected. "
+"(hold down the CTRL or COMMAND key for multiple selections)"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:226
+msgid "Content Region Include & Exclude"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:230
+msgid ""
+"Content Region to Include (eg. CSS Class, ID &amp; Tag Name). And for "
+"Content Region to Exclude , You can use Pseudo class (eg. p:not(.classname))"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:242
+msgid "Spritz Start Text"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:246
+msgid "Provide Start Text for Spritz."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:257
+msgid "Spritz End Text"
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:261
+msgid "Provide End Text for Spritz."
+msgstr ""
+
+#: ../wordpres.with.spritz.general.configuration.php:277
+#: ../wordpress.with.spritz.general.customization.options.php:283
+#: ../wordpress.with.spritz.licensing.php:70
+msgid "Save Changes"
+msgstr ""
+
+#: ../wordpress.with.spritz.configuration.php:3
+msgid "Spritz Reader Plugin Configuration"
+msgstr ""
+
+#: ../wordpress.with.spritz.configuration.php:7
+msgid "Plugin Configuration"
+msgstr ""
+
+#: ../wordpress.with.spritz.configuration.php:8
+msgid "Reader Customization"
+msgstr ""
+
+#: ../wordpress.with.spritz.configuration.php:9
+msgid "Plugin Licensing"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:33
+msgid "General Customization Options"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:42
+msgid "Remove/Replace \"<em>Created by Yoko Co and Powered by Spritz</em>\"?"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:47
+msgid "Check this option if you want to display or change the logo."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:58
+msgid "Change Logo"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:60
+msgid "Upload Logo"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:63
+msgid "Please provide the new logo to use on the frontend. Suggested size: 300x70 pixels."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:77
+msgid "Only use Spritz on responsive displays?"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:82
+msgid ""
+"Check this option if you wish to make the Spritz reader responsive for any "
+"device."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:95
+msgid "Disable Spritz Reader on Home Page?"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:100
+msgid "Check this option if you want to disable Spritz on the Home Page."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:111
+msgid "Please Choose a Theme"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:114
+msgid "Light"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:115
+msgid "Dark"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:118
+msgid "Please select a theme that will be used for the look of the reader."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:129
+msgid "Spritz Reader Frame Background Color"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:133
+msgid "Provide your desired background color for the Spritz plugin frame."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:147
+msgid "Change Button Image for Tab Button with Popup"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:152
+#: ../wordpress.with.spritz.general.customization.options.php:187
+msgid "Check this option if you want to change this button image."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:163
+msgid "Button Image for Tab Button with Popup"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:165
+#: ../wordpress.with.spritz.general.customization.options.php:200
+msgid "Upload Image"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:168
+#: ../wordpress.with.spritz.general.customization.options.php:203
+msgid ""
+"Provide an image to replace the \"Speed Read this Page with Spritz\" Button."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:182
+msgid "Change Button Image for Inline Button with Popup"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:198
+msgid "Button Image for Inline with Popup"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:214
+msgid "Inline Button Size to Use"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:217
+msgid "Small (140 x 22 pixels)"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:218
+msgid "Large (268 x 42 pixels)"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:221
+msgid "Select the size you want the inline Spritz Reader button to be."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:232
+msgid "Custom CSS Class for Spritz Reader"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:236
+msgid ""
+"Provide a CSS class that will be assigned to the Spritz Reader parent div."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:247
+msgid "Custom CSS"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:249
+msgid "Custom CSS Here"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:251
+msgid "Provide custom CSS if you wish to add your own styling."
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:262
+msgid "Custom jQuery"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:264
+msgid "Custom jQuery Code Here"
+msgstr ""
+
+#: ../wordpress.with.spritz.general.customization.options.php:266
+msgid ""
+"Please write jQuery code using 'j' as the jQuery instance. Your code will be "
+"placed in a document ready state."
+msgstr ""
+
+#: ../wordpress.with.spritz.licensing.php:7
+msgid "License &amp; API Keys"
+msgstr ""
+
+#: ../wordpress.with.spritz.licensing.php:13
+msgid "Spritz Client ID"
+msgstr ""
+
+#: ../wordpress.with.spritz.licensing.php:26
+msgid "Spritz License Key"
+msgstr ""
+
+#: ../wordpress.with.spritz.licensing.php:40
+msgid "License Status"
+msgstr ""
+
+#: ../wordpress.with.spritz.licensing.php:47
+msgid "Active"
+msgstr ""
+
+#: ../wordpress.with.spritz.licensing.php:49
+msgid "Invalid"
+msgstr ""
+
+#: ../wordpress.with.spritz.licensing.php:50
+msgid "Inactive"
+msgstr ""

@@ -1,0 +1,379 @@
+/* ****************************************************** */
+/* Core Styles ****************************************** */
+/* ****************************************************** */
+
+/* Popup Backdrop */
+div.spritzpopup_backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* z-index: 9999995; */
+	z-index: 2;
+	display: none;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	background: rgba(255, 255, 255, 0.30);
+	}
+
+
+
+/* ********************************************** */
+/* Spritz Tab Button **************************** */
+/* ********************************************** */
+a.spritz_start {
+	width: 52px;
+	height: 173px;
+	background: url("../images/Spritz_Tab_Solo.png") no-repeat;
+	display: block;
+	}
+	a.spritz_start.tabpopup {
+		z-index: 99999999999; /*Changed by Sameer old value= 1 */;
+		}
+	a.spritz_start.inlinepopup,
+	a.spritz_start.inlinereader {
+		left: auto !important;
+		right: auto !important;
+		margin: 0 0 15px;
+		}
+		
+		a.spritz_start.inlinepopup {}
+		a.spritz_start.inlinereader {}
+		
+		/* Button Alignment */
+		/* Align Button to Center */
+		a.spritz_start.inlinepopup.bttnAlignCenter,
+		a.spritz_start.inlinereader.bttnAlignCenter {
+			clear: both;
+			margin: 0 auto 15px !important;
+			display: block;
+			}
+		
+		/* Align Button to Left */
+		a.spritz_start.inlinepopup.bttnAlignLeft,
+		a.spritz_start.inlinereader.bttnAlignLeft {
+			margin: 0 15px 15px 0 !important;
+			float: left;
+			}
+		
+		/* Align Button to Right */
+		a.spritz_start.inlinepopup.bttnAlignRight,
+		a.spritz_start.inlinereader.bttnAlignRight {
+			margin: 0 0 15px 15px !important;
+			float: right;
+			}
+
+
+
+/* ********************************************** */
+/* Spritzer Container *************************** */
+/* ********************************************** */
+div.spritzer_popup {}
+	
+	/* Clearfix */
+	div.spritzer_popup .clear {
+		clear: both;
+		margin: 0;
+		padding: 0;
+		width: 0;
+		height: 0;
+		font-size: 0;
+		line-height: 0;
+		overflow: hidden;
+		visibility: hidden;
+		*zoom: 1;
+		}
+	
+	
+	
+	/* ********************************************** */
+	/* Sidetab with Popup + Inline Button with Popup  */
+	/* ********************************************** */
+	div.spritzer_popup.spritztabwpopup,
+	div.spritzer_popup.spritzinlinewpopup {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		z-index: 9999999;
+		background-color: #fff;
+		
+		-webkit-border-radius: 	3px;
+		-moz-border-radius: 	3px;
+		border-radius: 			3px;
+		-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+		-moz-box-shadow: 	0 0 5px rgba(0, 0, 0, 0.45);
+		box-shadow: 		0 0 5px rgba(0, 0, 0, 0.45);
+		}
+	
+		div.spritzer_popup.spritztabwpopup div.spritzer_frame,
+		div.spritzer_popup.spritzinlinewpopup div.spritzer_frame {
+			position: relative;
+			
+			-webkit-border-radius: 	3px;
+			-moz-border-radius: 	3px;
+			border-radius: 			3px;
+			}
+			
+			/* Title and Logos */
+			div.spritzer_popup.spritztabwpopup div.spritzer_title,					/* Logo Assigned to this Selector */
+			div.spritzer_popup.spritzinlinewpopup div.spritzer_title {
+				background-color: #f4f4f4;
+				
+				-webkit-border-radius: 	3px 3px 0 0;
+				-moz-border-radius: 	3px 3px 0 0;
+				border-radius: 			3px 3px 0 0;
+				}
+				div.spritzer_popup.spritztabwpopup a.close_icon,
+				div.spritzer_popup.spritzinlinewpopup a.close_icon {
+					position: absolute;
+					top: 22px;
+					right: 28px;
+					display: block;
+					width: 22px;
+					height: 22px;
+					text-decoration: none;
+					cursor: pointer;
+					background: url("../images/bttn_close.png") center center no-repeat;
+					}
+			
+			/* Reader */
+			div.spritzer_popup.spritztabwpopup div.spritzer,							/* Custom Class Assigned to this Selector */
+			div.spritzer_popup.spritzinlinewpopup div.spritzer {
+				padding: 15px;
+				
+				-webkit-border-radius: 	0 0 3px 3px;
+				-moz-border-radius: 	0 0 3px 3px;
+				border-radius: 			0 0 3px 3px;
+				}
+				
+				/* Reader Container */
+				div.spritzer_popup.spritztabwpopup div.spritzer-container,
+				div.spritzer_popup.spritzinlinewpopup div.spritzer-container {
+					border: 0 none;
+					background-color: #f0f0f0;
+					
+					-webkit-border-radius: 	2px;
+					-moz-border-radius: 	2px;
+					border-radius: 			2px;
+					-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.00);
+					-moz-box-shadow: 	0 0 0 rgba(0, 0, 0, 0.00);
+					box-shadow: 		0 0 0 rgba(0, 0, 0, 0.00);
+					}
+	
+	
+	
+	/* ********************************************** */
+	/* Sidetab with Popup + Inline Button with Popup  */
+	/* ********************************************** */
+	div.spritzer_popup.spritzinlinereader {
+		clear: both;
+		margin: 0 0 25px;
+		min-width: 465px;
+		background-color: #fff;
+		
+		-webkit-border-radius: 	3px;
+		-moz-border-radius: 	3px;
+		border-radius: 			3px;
+		-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+		-moz-box-shadow: 	0 0 5px rgba(0, 0, 0, 0.45);
+		box-shadow: 		0 0 5px rgba(0, 0, 0, 0.45);
+		}
+		
+		/* So there is no hard-set min value on responsive */
+		div.spritzer_popup.spritzinlinereader.responsive {
+			min-width: 100%;
+			}
+	
+		div.spritzer_popup.spritzinlinereader div.spritzer_frame {
+			position: relative;
+			
+			-webkit-border-radius: 	3px;
+			-moz-border-radius: 	3px;
+			border-radius: 			3px;
+			}
+			
+			/* Title and Logos */
+			div.spritzer_popup.spritzinlinereader div.spritzer_title {				/* Logo Assigned to this Selector */
+				float: right;
+				width: 36%;
+				background-color: #f4f4f4;
+				
+				-webkit-border-radius: 	0 3px 3px 0;
+				-moz-border-radius: 	0 3px 3px 0;
+				border-radius: 			0 3px 3px 0;
+				}
+				div.spritzer_popup.spritzinlinereader a.close_icon {
+					position: absolute;
+					top: 22px;
+					right: 28px;
+					display: block;
+					width: 22px;
+					height: 22px;
+					text-decoration: none;
+					cursor: pointer;
+					background: url("../images/bttn_close.png") center center no-repeat;
+					}
+			
+			/* Reader */
+			div.spritzer_popup.spritzinlinereader div.spritzer {						/* Custom Class Assigned to this Selector */
+				padding: 15px;
+				float: left;
+				width: 64%;
+				
+				-webkit-border-radius: 	3px 0 0 3px;
+				-moz-border-radius: 	3px 0 0 3px;
+				border-radius: 			3px 0 0 3px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: 	border-box;
+				box-sizing: 		border-box;
+				}
+				
+				/* Reader Container */
+				div.spritzer_popup.spritzinlinereader div.spritzer-container {
+					border: 0 none;
+					background-color: #f0f0f0;
+					
+					-webkit-border-radius: 	2px;
+					-moz-border-radius: 	2px;
+					border-radius: 			2px;
+					-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.00);
+					-moz-box-shadow: 	0 0 0 rgba(0, 0, 0, 0.00);
+					box-shadow: 		0 0 0 rgba(0, 0, 0, 0.00);
+					}
+	
+	
+	
+	/* ********************************************** */
+	/* Spritz in Widget ***************************** */
+	/* ********************************************** */
+	.widget.spritz div.spritzer_popup {
+		position: relative !important;
+		top: auto !important;
+		left: auto !important;
+		z-index: 3 !important;
+		background-color: #fff;
+		
+		-webkit-border-radius: 	3px;
+		-moz-border-radius: 	3px;
+		border-radius: 			3px;
+		-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+		-moz-box-shadow: 	0 0 5px rgba(0, 0, 0, 0.45);
+		box-shadow: 		0 0 5px rgba(0, 0, 0, 0.45);
+		}
+	
+		.widget.spritz div.spritzer_popup div.spritzer_frame {
+			position: relative;
+			
+			-webkit-border-radius: 	3px;
+			-moz-border-radius: 	3px;
+			border-radius: 			3px;
+			}
+			
+			/* Title and Logos */
+			.widget.spritz div.spritzer_popup div.spritzer_title {					/* Logo Assigned to this Selector */
+				float: none;
+				width: 100%;
+				height: 70px;
+				background-color: #f4f4f4;
+				
+				-webkit-border-radius: 	3px 3px 0 0;
+				-moz-border-radius: 	3px 3px 0 0;
+				border-radius: 			3px 3px 0 0;
+				}
+				.widget.spritz div.spritzer_popup a.close_icon {
+					position: absolute;
+					top: 22px;
+					right: 28px;
+					display: block;
+					width: 22px;
+					height: 22px;
+					text-decoration: none;
+					cursor: pointer;
+					background: url("../images/bttn_close.png") center center no-repeat;
+					}
+			
+			/* Reader */
+			.widget.spritz div.spritzer_popup div.spritzer {						/* Custom Class Assigned to this Selector */
+				padding: 15px;
+				float: none;
+				width: 100%;
+				
+				-webkit-border-radius: 	0 0 3px 3px;
+				-moz-border-radius: 	0 0 3px 3px;
+				border-radius: 			0 0 3px 3px;
+				}
+				
+				/* Reader Container */
+				.widget.spritz div.spritzer_popup div.spritzer-container {
+					border: 0 none;
+					background-color: #f0f0f0;
+					
+					-webkit-border-radius: 	2px;
+					-moz-border-radius: 	2px;
+					border-radius: 			2px;
+					-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.00);
+					-moz-box-shadow: 	0 0 0 rgba(0, 0, 0, 0.00);
+					box-shadow: 		0 0 0 rgba(0, 0, 0, 0.00);
+					}
+
+
+
+/* ********************************************** */
+/* Reader Structure (Cannot be Styled with CSS ** */
+/* ********************************************** */
+
+/* Reader Styling */
+div.spritzer-header {}
+	a.spritzer-logo {}
+	a.spritzer-login-btn {}
+		a.spritzer-login-btn.spritzer-isLoggedout {}
+
+/* Loading */
+#spritzer-loading {}
+
+/* Preloaded */
+div.spritzer-preloaded {}
+
+/* Reader Display Canvas */
+div.spritzer-canvas-container {}
+	div.spritzer-canvas-container canvas { width: 100% !important; }
+	canvas.spritzer-canvas {}
+
+/* Controls */
+div.spritzer-controls-container {}
+	
+	/* Speed Dropdown */
+	div.spritzer-speed {}
+		div.spritzer-speed.spritzer-open {}
+		ul.spritzer-dropdown-menu.spritzer-dropdown-speed {}
+			ul.spritzer-dropdown-menu.spritzer-dropdown-speed li {
+				margin: 0;
+				padding: 0;
+				}
+				ul.spritzer-dropdown-menu.spritzer-dropdown-speed li.spritzer-selected {}
+				
+				ul.spritzer-dropdown-menu.spritzer-dropdown-speed li a {}
+	
+	/* Preloader */
+	div.spritzer-controls-container div.spritzer-preload {}
+	
+	/* Button Container */
+	div.spritzer-button-container {}
+		div.spritzer-control-rewind {}
+		div.spritzer-control-back {}
+		div.spritzer-control-pauseplay {}
+		div.spritzer-control-forward {}
+		div.spritzer-control-end {}
+			
+			/* Disabled State */
+			div.spritzer-control-rewind.spritzer-control-disabled {}
+			div.spritzer-control-back.spritzer-control-disabled {}
+			div.spritzer-control-pauseplay.spritzer-control-disabled {}
+			div.spritzer-control-forward.spritzer-control-disabled {}
+			div.spritzer-control-end.spritzer-control-disabled {}
+	
+	div.spritzer-force-font {}
+
+div.notice{
+background-color:#FFC; border:1px solid #CCC; width:100%; height:20px; float:left; padding:5px;	
+}
